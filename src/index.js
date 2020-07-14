@@ -11,7 +11,7 @@ import "bulma/css/bulma.css";
 import "./styles.scss";
 
 const store = createStore(reducer);
-console.log("this is my state from store", store.getState);
+// console.log("this is my state from store", store.getState);
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
